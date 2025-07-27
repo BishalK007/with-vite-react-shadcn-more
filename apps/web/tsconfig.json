@@ -1,5 +1,5 @@
 {
-  "extends": "@repo/typescript-config/vite.json",
+  "extends": "@workspace/typescript-config/vite.json",
   "include": [
     "src",
   ],
@@ -9,7 +9,8 @@
     "paths": {
       "@/*": ["./*"],
       "@workspace/ui/*": ["../../packages/ui/src/*"]
-    }
+    },
+    
   },
   "exclude": ["node_modules"]
 }
