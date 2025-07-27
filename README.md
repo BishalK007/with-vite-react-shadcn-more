@@ -6,7 +6,7 @@
 Run the following command:
 
 ```sh
-pnpm dlx create-turbo@latest -e with-vite-react
+pnpm dlx create-turbo@latest --example https://github.com/BishalK007/with-vite-react-shadcn-more
 ```
 
 ## What's inside?
