@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import "./style.css";
+import "@workspace/ui/styles/globals.css"
 import typescriptLogo from "/typescript.svg";
 import { Header, Counter } from "@repo/ui";
 
