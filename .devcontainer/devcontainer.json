@@ -1,0 +1,28 @@
+{
+    "name": "Dev Container With:  Node.js, Npm, Yarn, Pnpm",
+    "image": "mcr.microsoft.com/devcontainers/base:0-ubuntu",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "orta.vscode-jest",
+                "esbenp.prettier-vscode",
+                "eamodio.gitlens",
+                "styled-components.vscode-styled-components",
+                "firsttris.vscode-jest-runner",
+                "bradlc.vscode-tailwindcss",
+                "hbenl.vscode-mocha-test-adapter",
+                "glenn2223.live-sass",
+                "dbaeumer.vscode-eslint",
+                "ms-vscode.vscode-typescript-tslint-plugin",
+                "postman.postman",
+                "ritwickdey.LiveServer"
+            ]
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {}
+    }
+}
